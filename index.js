@@ -15,4 +15,4 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
 }
 
 deleteFromObjectByKey(recipes,"flour")
-console.log(recipes)
+console.log(newObj)
