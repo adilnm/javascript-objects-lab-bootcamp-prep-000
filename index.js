@@ -17,5 +17,10 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   return obj
 }
 
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
+  obj[key]=value
+  return obj
+}
+
 updateObjectWithKeyAndValue(recipes, "kok", "1 lb")
 console.log(recipes)
