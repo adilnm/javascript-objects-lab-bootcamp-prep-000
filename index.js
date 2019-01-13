@@ -1,7 +1,9 @@
 var recipes={egg:3,oil:"2 cups",flour:"3 cups"}
-function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({},object,{[key]: value})
+function updateObjectWithKeyAndValue(obj, key, value){
+  return Object.assign({},obj,{[key]: value})
+
 }
+
 function deleteFromObjectByKey(obj, key){
   
   var newObj=Object.assign({},obj)
