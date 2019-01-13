@@ -3,8 +3,8 @@ function updateObjectWithKeyAndValue(obj, key, value){
   obj[key]=value
   return obj
 }
-function deleteFromObjectByKey(obj, key, value){
-  
+function deleteFromObjectByKey(obj, key){
+  var newObj=obj
   return Object.assign(obj,{key:value})
 
 }
