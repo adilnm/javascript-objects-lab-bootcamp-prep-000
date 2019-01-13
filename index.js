@@ -14,5 +14,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   return obj
 }
 
-updateObjectWithKeyAndValue(recipes, "kok", "1 lb")
+deleteFromObjectByKey(recipes,flour)
 console.log(recipes)
