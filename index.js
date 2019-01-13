@@ -3,9 +3,9 @@ function updateObjectWithKeyAndValue(obj, key, value){
   obj[key]=value
   return obj
 }
-function deleteFromObjectByKey(obj, key){
-  delete newObj.key
-  return newObj
+function deleteFromObjectByKey(obj, key, value){
+  
+  return Object.assign(obj,{key:value})
 
 }
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
@@ -13,5 +13,5 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
   return obj
 }
 
-deleteFromObjectByKey(recipes,"flour")
-console.log()
+updateObjectWithKeyAndValue(recipes, "kok", "1 lb")
+console.log(recipes)
