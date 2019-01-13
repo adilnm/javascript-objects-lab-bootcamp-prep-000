@@ -3,13 +3,15 @@ function updateObjectWithKeyAndValue(obj, key, value){
   obj[key]=value
   return obj
 }
-function deleteFromObjectByKey(obj, key){
+function deleteFromObjectByKey(object, key){
   
-  var newObj=Object.assign({},obj)
+  var newObj=Object.assign({},object)
    delete newObj.key
    return newObj
 
 }
+
+
 
 
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
