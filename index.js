@@ -9,5 +9,5 @@ function deleteFromObjectByKey(obj, key, value){
 
 }
 
-
-console.log(updateObjectWithKeyAndValue(recipes, "kok", "1 lb"))
+updateObjectWithKeyAndValue(recipes, "kok", "1 lb")
+console.log(recipes)
